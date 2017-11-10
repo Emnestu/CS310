@@ -1,0 +1,5 @@
+Hello. 132132
+This is a basic example of text that can be dealt with by an LA.
+It will ignore anything that isn't a lowercase or uppercase letter or a linefeed or carriage return.
+For example % & ! will all be ignored
+11
