@@ -1,0 +1,3 @@
+if 5.4f == value1; /* Blah blah blah */
+//do b 5 if 5.6f + 4;
+return "test string";
