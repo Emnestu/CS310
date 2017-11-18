@@ -29,7 +29,7 @@ special_characters="{\", \"}"|"(\", \")"|"[\", \"]"|"."|";"|"="|"=="|"+"|"-"|"*"
 
 <YYINITIAL>"/*"               						{yybegin(COMMENT);} /*yybegin sets the current state */
 
-<YYINITIAL>[a-z][a-z0-9]*     						{return new Token (Token.IDENTIFIER, yytext());}
+<YYINITIAL>[a-zA-Z_][a-zA-Z0-9_]*     		{return new Token (Token.IDENTIFIER, yytext());}
 
 <YYINITIAL>{digits}           						{return new Token (Token.INT_LITERAL, new Integer (yytext()));}
 
