@@ -18,7 +18,7 @@ executed each time when the end of file is reached. The code returns a Token tha
 /* Macro for digits **/
 digits=[0-9]+
 reserved_words="if"|"for"|"while"|"do"|"class"|"public"|"static"|"void"|"int"|"float"
-special_characters="{\", \"}"|"(\", \")"|"[\", \"]"|"."|";"|"="|"=="|"+"|"-"|"*"|"/"
+special_characters="{" | "}" | "(" | ")" | "[" | "]" | "." | ";" | "=" | "==" | "+" | "-" | "*" | "/"
 
 %%
 /*---- Actions ----*/
